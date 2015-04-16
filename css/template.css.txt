@@ -1,0 +1,26 @@
+.page-header{
+
+	backgroud-color: #A4DBDB;
+	top: 30px;
+    right: 5px;
+
+}
+
+#page-header{
+
+	backgroud-color: #A4DBDB;
+	top: 30px;
+    right: 5px;
+
+}
+
+#nomeusuario{
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+
+	
+}

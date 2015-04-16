@@ -1,0 +1,24 @@
+{
+  "name": "perfil.html",
+  "version": "0.0.1",
+  "description": "app to perfil with bower",
+  "main": "materialize/perfil.html",
+  "keywords": [
+    "perfil"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/diRex/perfil.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.4",
+    "materialize": "~0.96.1",
+    "angular": "~1.3.15"
+  }
+}

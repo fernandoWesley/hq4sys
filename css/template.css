@@ -1,0 +1,45 @@
+.page-header{
+
+	background-color: #A4DBDB;
+
+}
+#username{
+
+	margin-left: 50px;
+	font-size: 30px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+#home{
+
+	font-size:30px;
+	font-family: Arial, sans-serif;
+
+}
+
+#curriculo{
+
+	font-size:30px;
+	font-family: Verdana, sans-serif;
+
+}
+#projetos{
+
+	font-size:30px;
+	font-family: Verdana, sans-serif;
+
+}
+
+#contatos{
+
+	font-size:30px;
+	font-family: Verdana, sans-serif;
+}
+#accordionprincipal{
+
+	font-size:30px;
+	background-color:#E57373;
+}

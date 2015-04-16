@@ -1,0 +1,265 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+       <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+
+      <link type="text/css" rel="stylesheet" href="css/template.css"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+
+    <body class="has-docked-nav" > 
+     <!--Import jQuery before materialize.js-->
+     
+      <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+        
+      <!--Cabecalho fixo-->
+      <header class="page-header">  
+         <div class="navbar-fixed">        
+          <nav>
+           
+                <div class="nav-wrapper">
+                  <div class="content">
+                 <a id="username" href="https://www.facebook.com/fernando.wesleyteixeira.9" class="brand-logo">
+                  <img style="width:60px;height:60px;margin-top:-7px" class="img-circle" src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/3/005/09b/3c1/1244ea1.jpg"  />
+                  <h1 style="margin-top:-50px; margin-left:80px">Fernando Wesley Teixeira</h1></a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                  <!--lista nao ordenada com botoes que rolam ate o local da referecia href-->
+                    <ul style="margin-right:80px"  id="nav-mobile" class="right hide-on-med-and-down">
+                      <li><a href="#home"class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#home').offset().top}, 2000);">Home</a></li>
+                      <li><a href="#curriculo" class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#curriculo').offset().top}, 2000);">Curriculo</a></li>
+                      <li><a href="#projetos" class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#projetos').offset().top}, 2000);">Projetos</a></li>
+                      <li><a href="#contatos" class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#contatos').offset().top}, 2000);">Contato</a></li>
+                    </ul>
+                    <!--lista nao ordenada que só é habilitada quando a tela é reduzida habilitando o botao de list, tambem tem a funcao de rolar ate a referencia href-->
+                    <ul class="side-nav" id="mobile-demo">
+
+                      <li><a href="#home" class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#home').offset().top}, 2000);">Home</a></li>
+                      <li><a href="#curriculo" class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#curriculo').offset().top}, 2000);">Curriculo</a></li>
+                      <li><a href="#projetos" class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#projetos').offset().top}, 2000);">Projetos</a></li>
+                      <li><a href="#contatos" class="waves-effect waves-light btn" onclick="$('html,body').animate({scrollTop: $('#contatos').offset().top}, 2000);">Contato</a></li>
+                    </ul>
+                  </div>
+                  
+                </div>
+                
+              
+
+           </nav>            
+         </div>  
+          
+        </header>
+    <!--corpo da pagina-->
+   <main  class="page-main">
+          <div class="container">
+
+            <div id="home" style="background-color:#A4DBDB; border-radius: 15px" > 
+                 <br />
+                <br />
+              <h1 style="text-align:center">RESUMO</h1>
+              <img style="width:100%"src="https://scontent-gru.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10509540_470333436435192_6280719453990008740_n.jpg?oh=3825c1e33881f52c3da30e55a8b7a237&oe=5599EC2C" />
+              <br />
+              <br />
+              <p>
+                  Seis  anos de experiência em análise de placas eletrônicas, servi durante um ano o Exército Brasileiro aprendendo a ter responsabilidades a ter respeito pelo próximo, respeitar meus lideres, aprendi a trabalhar em equipe para conquistar melhores resultados respeitando meu próximo como a mim mesmo, bom relacionamento interpessoal, fácil adaptação a lugares e funções diferenciadas.
+
+              </p>
+            </div>
+
+            <div id="curriculo" style="background-color:#A4DBDB; border-radius: 15px">
+                <br />
+                <br />
+                <h1 style="text-align:center"><b>Curriculo</b></h1>
+
+                <h3><b>Experiência profissional:</b></h3>
+              <p>
+                  <!--lista nao ordenada que esta no modelo de accordion, quando clicado ele abre a div de class collapsible-body-->
+                  <ul class="collapsible popout" data-collapsible="accordion" style="background-color:#E57373;border-radius: 15px">
+                      <li>
+                        <div class="collapsible-header"><i id="accordionprincipal" class="medium mdi-content-add-circle-outline
+" ></i>EMPRESA :  QUASAR  SISTEMAS ELETRONICOS.
+                        </div>
+                        <div class="collapsible-body"><p>CARGO :Técnico em eletrônica(Debug de notebooks , desktops, fontes chaveadas e painéis de led de alta definição). 
+                         PERIODO :Desde 15/04/2013 até 10/06/2014 - 1 Ano e 2 meses.<br />
+                          Conserto de placas de notebook utilizando esquema elétrico e TS, conserto de fontes chaveadas e painéis de led de alta definição, atuavam tanto no diagnostico como na troca de componentes. Deixei o cargo para entrar na área de TI.</p></div>
+                      </li>
+                      
+                      <li>
+                        <div class="collapsible-header"><i id="accordionprincipal" class="medium mdi-content-add-circle-outline"></i>EMPRESA : VISUM SISTEMAS ELETRONICOS.</div>
+                        <div class="collapsible-body"><p>CARGO :Técnico em eletrônica(Debug de notebooks e desktops). 
+                        PERIODO :Desde 03/05/2010 até 10/09/2012 - 2 Anos e 4 meses.
+                        <br />
+                         Conserto de placas de notebook utilizando esquema elétrico e TS, tanto ICT como FCT, também consertando notebooks montados na linha do BOX. Trabalhei na linha de BonePile(Placas com um nível de dificuldade maior) da Visum, fui o ultimo técnico em eletrônica da Visum. </p></div>
+                      </li>
+                
+                      <li>
+                        <div class="collapsible-header"><i id="accordionprincipal" class="medium mdi-content-add-circle-outline"></i>EMPRESA : CENTRAL DO NOTEBOOK.</div>
+                        <div class="collapsible-body"><p>CARGO : TÉCNICO EM ELETRÔNICA DE NOTEBOOKS. 
+                  PERIODO : 16/6/2007 À 31/02/2010. 
+                  <br />
+                  Manutenção em telas de LCD, drives e periféricos de notebook, Placas de notebook e fontes chaveadas.</p></div>
+                      </li>
+                      
+                    </ul>
+                  
+                  <h3><b>Informática:</b></h3>
+                  Pacote Office:  Word – Intermediário
+                      Excel – Intermediário
+                      PowerPoint – Intermediário
+                      Access –Básico
+                      <br />
+                  <h3><b>Cursos e atividades</b></h3>
+                  <br />
+                  *Html  5– Code Academy <br />
+                  *Html 5 – W3schools.com<br />
+                  *CSS 3 – Code Academy<br />
+                  *JavaScript – Code Academy<br />
+                  *Análise e concerto de placas eletrônica em notebooks e desktops – PCHARD INFORMATICA– 20hs – 2010.<br />
+                  *Montagem e manutenção de notebooks – Central do notebook – 480hs – 2008<br />
+                  *Informática Pacote Office– EasyComp -  240hs – 2007<br />
+                  *Eletrônica Básica – Exercito Brasileiro – 60hs – 2005<br />
+                  *Mecânica Básica – Senai-CIC - 100hs – 2006<br />
+                  <br />
+                  <h3><b>Idiomas</b></h4>
+                  Inglês: Cursando inglês – Intermediário - Live Mocha e Duolinguo.
+
+
+
+              </p>
+            </div>
+              
+            <div id="projetos" style="background-color:#A4DBDB;border-radius: 15px">
+
+                <br />
+                <br />
+               <h1 style="text-align:center"><b>PROJETOS</b></h1>
+               <h3><b>Sistema para cerimoniais</b></h3>
+               <p>
+                                  
+
+                  Programa feito em java para web, Prime faces, PostgreSQL com a intenção de auxiliar os noivos e o cerimonial, aumentando o canal de comunicação.
+                  Facilitando a organização das tarefas a serem realizadas pelo casal.
+
+                  <a href="http://prezi.com/cnve7phbqjui/?utm_campaign=share&utm_medium=copy&rc=ex0share" target="_blank">Documento do Projeto</a>
+
+              </p>
+            </div>
+             
+            <div id="contatos" >
+                <br />
+                <br />
+              
+                  <h1 ><b>CONTATOS</b></h1>
+                  <div style="width:30%;height:100px;font-size:12px; margin-top: 100px;0px;0px;0px">
+
+                      Telefone: (41)3274-6167 <br />
+                      E-mail:   fernandowesleyteixeira@gmail.com 
+                  </div>
+
+                  <!--Form ainda nao esta funcionado, falta implementar a parte de ligacao com o banco-->
+                  <div class="row" style="float:right; width:70%; margin-top:-230px"  enctype='application/json'>
+                      <form class="col s12">
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input  id="first_name" type="text" class="validate">
+                            <label for="first_name" style="font-size:14px"><b>Nome</b></label>
+                          </div>
+                          <div class="input-field col s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name" style="font-size:14px"><b>Assunto</b></label>
+                          </div>
+                        </div>                        
+                        <div class="row">
+                          <div class="input-field col s6">
+                            <input id="password" type="password" class="validate">
+                            <label for="password" style="font-size:14px"><b>Telefone</b></label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s6">
+                            <input id="email" type="email" class="validate">
+                            <label for="email" style="font-size:14px"><b>Email</b></label>
+                          </div>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                          <i class="mdi-content-send right"></i>
+                        </button>
+                      </form>
+                    </div>
+                              
+            </div>
+              
+          </div>
+        </main>
+
+      <!--roda pé-->  
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Fernando Wesley Teixeira</h5>
+                <p class="grey-text text-lighten-4">Analista e desenvolvedor de Sistemas</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                
+                <ul>
+                  <ul>
+                  <li><a class="grey-text text-lighten-4 right" target="_blank" href="https://www.facebook.com/fernando.wesleyteixeira.9"><img src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/32/social_facebook_box_blue.png" /></a></li>
+
+                  <li><a class="grey-text text-lighten-4 right" target="_blank" href="https://www.linkedin.com/profile/view?id=271394523&trk=hp-identity-photo"><img src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/32/social_linkedin_box_blue.png" /></a></li>
+
+                  <li><a class="grey-text text-lighten-4 right" target="_blank" href="https://plus.google.com/u/0/100883505471569374015/posts"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-google-plus-32.png" /></a></li>              
+
+                </ul>
+                 
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright
+            <div class="col l4 offset-l2 s12">
+                
+              </div>
+
+            
+            </div>
+          </div>
+        </footer>
+
+        <!--script para funcionar a funcao side da barra de navegacao contina no cabecalho-->
+        <script>
+          $(document).ready(function() {
+            $(".button-collapse").sideNav();
+          });
+        </script>
+
+        <!--script para funcionar a funcao de abertura do accordion referente a experiencia profissional-->
+          <script>
+                $(document).ready(function(){
+            $('.collapsible').collapsible({
+              accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+            });
+          });
+        </script>
+       
+
+
+        
+    </body>
+  </html>
+        
